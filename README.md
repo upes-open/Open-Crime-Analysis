@@ -1,6 +1,7 @@
 # OSC-Crime-Analysis-and-Prediction
 > An application for analysing crime in a particular area.
 
+
 ## Table of Content
 * [General Information](#general-information)
 * [Technologies Used](#general-information)
@@ -33,5 +34,5 @@ git commit -m "your message"
 ```
 5. Raise your first PR :partying_face:
 
-
+## NOTE: Fork the Repo and star it for extra points :wink:
 
