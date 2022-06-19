@@ -1,5 +1,5 @@
 # OSC-Crime-Analysis-and-Prediction
-> An application for analysing crime in a particular area.
+> An application for analysing crime and predicting them in a particular area by the use of data visualization. 
 
 
 ## Table of Content
@@ -9,7 +9,7 @@
 * [Setup](#setup)
 
 ## General Information
-Today the crime rate is rising day by day and all the governments effort around the word are directed at raising the crime rate using data mining which is a grade field of application with high data set volume it has province that it has with its technique to take the advantage with historical data this would have the police department by analysing the data and getting from it the information.
+Today the crime rate is rising day by day. The government's efforts are directed at raising the crime rate using data mining, which would be a grade field of application with high data set volume. It has provinces that its technique to take advantage of historical data would have the police department analyzing the data and extracting information from it. This information can be further used for visualization, helping us in solving the problem further. 
 
 ## Technologies Used
 Python, JavaScript, MySQL, Firebase, Django, React
@@ -24,15 +24,16 @@ Here's a brief intro about what a contributor must do in order to start developi
 ```shell
 git clone https://github.com/upes-open/OSC-Crime-Analysis-and-Prediction
 ```
-3. Go to folder according to the issue you are working and save your work
+3. Go to the folder according to the issue you are working on and save your work.
 ```shell
 git add .
 ```
-4. Now commit your changes
+4. Now commit your changes with a message about it
 ```shell
 git commit -m "your message"
 ```
-5. Raise your first PR :partying_face:
+5. Push your changes
+
+6. Raise your first PR :partying_face:
 
 ## NOTE: Fork the Repo and star it for extra points :wink:
-
