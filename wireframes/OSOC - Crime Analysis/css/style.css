@@ -1,0 +1,42 @@
+.crime-logo {
+  width: 100%;
+
+}
+
+.intro {
+  background-color: #15133C;
+  color: white;
+  padding: 100px;
+
+}
+
+.crime-img {
+  float: right;
+  width: 20%;
+  margin-bottom: 100px;
+  margin-left: 20px;
+  padding-bottom:20px;
+
+}
+
+.crime-area {
+  text-align: center;
+  padding-top:100px;
+  padding-bottom: 100px;
+  line-height: 4;
+  background-color: #413F42;
+  color: white;
+}
+
+button {
+  line-height: 2;
+
+}
+
+button:hover {
+  background: grey;
+}
+
+h2 {
+  padding-left: 320px;
+}
