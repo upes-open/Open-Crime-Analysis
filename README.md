@@ -9,7 +9,7 @@
 * [Setup](#setup)
 
 ## General Information
-Today the crime rate is rising day by day. The government's efforts are directed at raising the crime rate using data mining, which would be a grade field of application with high data set volume. It has provinces that its technique to take advantage of historical data would have the police department analyzing the data and extracting information from it. This information can be further used for visualization, helping us in solving the problem further. 
+Crime rates are on a peak these days. The government's efforts are directed at raising the crime rate using data mining, which would be a grade field of application with high data - set volume. It has provinces and different techniques can be used taking advantage of the historical data which would help the police department analyzing the same and then extracting valuable information from them. This information can be further used for visualization, helping us in solving the problem further. 
 
 ## Technologies Used
 Python, JavaScript, MySQL, Firebase, Django, React
