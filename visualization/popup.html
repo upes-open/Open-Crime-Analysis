@@ -1,0 +1,74 @@
+def popup_html(row):
+    i = row
+    district_name=df['DISNAME'].iloc[i] 
+    incident_datetime=df['INCIDATIME'].iloc[i] 
+    report_datetime = df['REPDATIME'].iloc[i] 
+    incident_id=df['INCID'].iloc[i] 
+    penal_code= df['PENALCODE']                   
+    crimes = df['CRIMES'].iloc[i]
+    incident_description= df['INCIDESP'].iloc[i]
+    Resolution= df['RESOLUTION'].iloc[i]
+    Police = df['POLIC'].iloc[i]
+    District = df['DISTRICT'].iloc[i]	
+    Latitude = df['LAT'].iloc[i]
+    Longitude = df['LONG'].iloc[i]
+
+    left_col_color = "#19a7bd"
+    right_col_color = "#f2f0d3"
+    
+    html = """<!DOCTYPE html>
+<html>
+<head>
+<h4 style="margin-bottom:10"; width="200px">{}</h4>""".format(district_name) + """
+</head>
+    <table style="height: 126px; width: 350px;">
+<tbody>
+<tr>
+<td style="background-color: """+ left_col_color +""";"><span style="color: #ffffff;">Report Datetime</span></td>
+<td style="width: 150px;background-color: """+ right_col_color +""";">{}</td>""".format(report_datetime) + """
+</tr>
+<tr>
+<td style="background-color: """+ left_col_color +""";"><span style="color: #ffffff;">Incident Datetime</span></td>
+<td style="width: 150px;background-color: """+ right_col_color +""";">{}</td>""".format(incident_datetime) + """
+</tr>
+<tr>
+<td style="background-color: """+ left_col_color +""";"><span style="color: #ffffff;">Incident ID</span></td>
+<td style="width: 150px;background-color: """+ right_col_color +""";">{}</td>""".format(incident_id) + """
+</tr>
+<tr>
+<td style="background-color: """+ left_col_color +""";"><span style="color: #ffffff;">Penal Code</span></td>
+<td style="width: 150px;background-color: """+ right_col_color +""";">{}</td>""".format(penal_code) + """
+</tr>
+<tr>
+<td style="background-color: """+ left_col_color +""";"><span style="color: #ffffff;">Crimes</span></td>
+<td style="width: 150px;background-color: """+ right_col_color +""";">{}</td>""".format(crimes) + """
+</tr>
+<tr>
+<td style="background-color: """+ left_col_color +""";"><span style="color: #ffffff;">Incident description</span></td>
+<td style="width: 150px;background-color: """+ right_col_color +""";">{}</td>""".format(incident_description) + """
+</tr>
+<tr>
+<td style="background-color: """+ left_col_color +""";"><span style="color: #ffffff;">Resolution$</span></td>
+<td style="width: 150px;background-color: """+ right_col_color +""";">{}</td>""".format(Resolution) + """
+</tr>
+<tr>
+<td style="background-color: """+ left_col_color +""";"><span style="color: #ffffff;">Police $</span></td>
+<td style="width: 150px;background-color: """+ right_col_color +""";">{}</td>""".format(Police) + """
+</tr>
+<tr>
+<td style="background-color: """+ left_col_color +""";"><span style="color: #ffffff;">District $</span></td>
+<td style="width: 150px;background-color: """+ right_col_color +""";">{}</td>""".format(District) + """
+</tr>
+<tr>
+<td style="background-color: """+ left_col_color +""";"><span style="color: #ffffff;">Latitude $</span></td>
+<td style="width: 150px;background-color: """+ right_col_color +""";">{}</td>""".format(Latitude) + """
+</tr>
+<tr>
+<td style="background-color: """+ left_col_color +""";"><span style="color: #ffffff;">Longitude $</span></td>
+<td style="width: 150px;background-color: """+ right_col_color +""";">{}</td>""".format(Longitude) + """
+</tr>
+</tbody>
+</table>
+</html>
+"""
+    return html
