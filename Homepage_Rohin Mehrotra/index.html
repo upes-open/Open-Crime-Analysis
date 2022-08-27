@@ -3,14 +3,39 @@
 <head>
     <title>Crime Analysis and Prediction</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="panel.css">
 </head>
 <body>
 
     <div class="main">
         <div class="navbar">
             <div class="icon">
-                <h2 class="logo">Crime</h2>
+              
             </div>
+
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="#">View Map</a>
+                <a href="#">State Crime </a>
+                <a href="#">District Crime</a>
+                <a href="#">City Crime</a>
+              </div>
+              
+              <div id="main">
+                <button class="openbtn" onclick="openNav()">☰</button>  
+              </div>
+              
+              <script>
+              function openNav() {
+                document.getElementById("mySidebar").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
+              }
+              
+              function closeNav() {
+                document.getElementById("mySidebar").style.width = "0";
+                document.getElementById("main").style.marginLeft= "0";
+              }
+              </script>
 
             <div class="menu">
                 <ul>
