@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_af90c2791301d12c20ecc17c0c767df7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_af90c2791301d12c20ecc17c0c767df7" ></div>
+        
+</body>
+<script>    
+    
+            var map_af90c2791301d12c20ecc17c0c767df7 = L.map(
+                "map_af90c2791301d12c20ecc17c0c767df7",
+                {
+                    center: [30.316496, 78.032188],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_af90c2791301d12c20ecc17c0c767df7);
+
+            
+
+        
+    
+            var tile_layer_13192da913c4a07b48990e7e508e5596 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_af90c2791301d12c20ecc17c0c767df7);
+        
+    
+            var marker_f94b8c601028de291bd2d837fe3939f1 = L.marker(
+                [29.29211384, 79.35319125],
+                {}
+            ).addTo(map_af90c2791301d12c20ecc17c0c767df7);
+        
+    
+            var icon_5df514aa90e06214487d1d83d038c92b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f94b8c601028de291bd2d837fe3939f1.setIcon(icon_5df514aa90e06214487d1d83d038c92b);
+        
+    
+        var popup_9b9e0a09fc12a10db23c6891301488f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e17ecfe8a1e49ce002503f74513f436e = $(`<div id="html_e17ecfe8a1e49ce002503f74513f436e" style="width: 100.0%; height: 100.0%;">Theft, From Building, >$950 378.0</div>`)[0];
+            popup_9b9e0a09fc12a10db23c6891301488f6.setContent(html_e17ecfe8a1e49ce002503f74513f436e);
+        
+
+        marker_f94b8c601028de291bd2d837fe3939f1.bindPopup(popup_9b9e0a09fc12a10db23c6891301488f6)
+        ;
+
+        
+    
+    
+            var marker_2b7a17a30351bfebe2001765e850a75b = L.marker(
+                [29.25031422, 79.45458228],
+                {}
+            ).addTo(map_af90c2791301d12c20ecc17c0c767df7);
+        
+    
+            var icon_5d1d1214a584e6672709e10462b15804 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2b7a17a30351bfebe2001765e850a75b.setIcon(icon_5d1d1214a584e6672709e10462b15804);
+        
+    
+        var popup_357603ae227e8cf6c66af5763b5592ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0528f9126d9df178c18191153d892d3 = $(`<div id="html_b0528f9126d9df178c18191153d892d3" style="width: 100.0%; height: 100.0%;">Theft, Other Property, >$950 378.0</div>`)[0];
+            popup_357603ae227e8cf6c66af5763b5592ca.setContent(html_b0528f9126d9df178c18191153d892d3);
+        
+
+        marker_2b7a17a30351bfebe2001765e850a75b.bindPopup(popup_357603ae227e8cf6c66af5763b5592ca)
+        ;
+
+        
+    
+    
+            var marker_42c3678b50d8f326fc83e5931231f027 = L.marker(
+                [29.34564495, 79.55004426],
+                {}
+            ).addTo(map_af90c2791301d12c20ecc17c0c767df7);
+        
+    
+            var icon_b2e4a28cefbc18b2c6bc00acd94bfa96 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_42c3678b50d8f326fc83e5931231f027.setIcon(icon_b2e4a28cefbc18b2c6bc00acd94bfa96);
+        
+    
+        var popup_b6cf5bab97f534e5ad60917fb5071fbe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4faaff079cd632d4f4a9216f0e732121 = $(`<div id="html_4faaff079cd632d4f4a9216f0e732121" style="width: 100.0%; height: 100.0%;">Theft, Other Property, $50-$200 378.0</div>`)[0];
+            popup_b6cf5bab97f534e5ad60917fb5071fbe.setContent(html_4faaff079cd632d4f4a9216f0e732121);
+        
+
+        marker_42c3678b50d8f326fc83e5931231f027.bindPopup(popup_b6cf5bab97f534e5ad60917fb5071fbe)
+        ;
+
+        
+    
+    
+            var marker_7dba321ef0a47f9fdd3d362b17cd5891 = L.marker(
+                [29.00850175, 79.41598421],
+                {}
+            ).addTo(map_af90c2791301d12c20ecc17c0c767df7);
+        
+    
+            var icon_393ec3d047d06d2f28fcdb8c6b909797 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7dba321ef0a47f9fdd3d362b17cd5891.setIcon(icon_393ec3d047d06d2f28fcdb8c6b909797);
+        
+    
+        var popup_2a8131a8a4d4b9826951f1abdbbe9b4d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1370b19e8f71e19e6201b8941bd88c24 = $(`<div id="html_1370b19e8f71e19e6201b8941bd88c24" style="width: 100.0%; height: 100.0%;">Vehicle, Recovered, Stolen outside SF 378.0</div>`)[0];
+            popup_2a8131a8a4d4b9826951f1abdbbe9b4d.setContent(html_1370b19e8f71e19e6201b8941bd88c24);
+        
+
+        marker_7dba321ef0a47f9fdd3d362b17cd5891.bindPopup(popup_2a8131a8a4d4b9826951f1abdbbe9b4d)
+        ;
+
+        
+    
+    
+            var marker_8691110b910f63448ee0cf99404ef8d9 = L.marker(
+                [29.11783692, 79.42995354],
+                {}
+            ).addTo(map_af90c2791301d12c20ecc17c0c767df7);
+        
+    
+            var icon_74a08bfa5ea077dbfe22d5bdf0630b1d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8691110b910f63448ee0cf99404ef8d9.setIcon(icon_74a08bfa5ea077dbfe22d5bdf0630b1d);
+        
+    
+        var popup_15b920a8e69ecaff078c4fb73683e8bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4358e107e575c812c3cff0886a061f6f = $(`<div id="html_4358e107e575c812c3cff0886a061f6f" style="width: 100.0%; height: 100.0%;">Theft, From Building, >$950 378.0</div>`)[0];
+            popup_15b920a8e69ecaff078c4fb73683e8bd.setContent(html_4358e107e575c812c3cff0886a061f6f);
+        
+
+        marker_8691110b910f63448ee0cf99404ef8d9.bindPopup(popup_15b920a8e69ecaff078c4fb73683e8bd)
+        ;
+
+        
+    
+    
+            var marker_84501e670aa85c25c5577c0c15fe67dd = L.marker(
+                [29.12932331, 79.42895675],
+                {}
+            ).addTo(map_af90c2791301d12c20ecc17c0c767df7);
+        
+    
+            var icon_6855d2fdf4208123a914ddc1daa4bac6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_84501e670aa85c25c5577c0c15fe67dd.setIcon(icon_6855d2fdf4208123a914ddc1daa4bac6);
+        
+    
+        var popup_b94b84ca04bb7f16f1f4eafa725d7623 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30dc777a698a5ee0120b827059c2ee4c = $(`<div id="html_30dc777a698a5ee0120b827059c2ee4c" style="width: 100.0%; height: 100.0%;">License Plate, Stolen 378.0</div>`)[0];
+            popup_b94b84ca04bb7f16f1f4eafa725d7623.setContent(html_30dc777a698a5ee0120b827059c2ee4c);
+        
+
+        marker_84501e670aa85c25c5577c0c15fe67dd.bindPopup(popup_b94b84ca04bb7f16f1f4eafa725d7623)
+        ;
+
+        
+    
+    
+            var marker_004930690a20d00e0390ca430fdf5741 = L.marker(
+                [30.22557323, 78.03613555],
+                {}
+            ).addTo(map_af90c2791301d12c20ecc17c0c767df7);
+        
+    
+            var icon_1bd7aef77ad3a38d2b972ad576246aca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_004930690a20d00e0390ca430fdf5741.setIcon(icon_1bd7aef77ad3a38d2b972ad576246aca);
+        
+    
+        var popup_109fb00d42619f83a6c1771b73f2dede = L.popup({"maxWidth": "100%"});
+
+        
+            var html_828983ebd177860ace3b4ea7bd5cf77a = $(`<div id="html_828983ebd177860ace3b4ea7bd5cf77a" style="width: 100.0%; height: 100.0%;">Theft, Other Property, $50-$200 378.0</div>`)[0];
+            popup_109fb00d42619f83a6c1771b73f2dede.setContent(html_828983ebd177860ace3b4ea7bd5cf77a);
+        
+
+        marker_004930690a20d00e0390ca430fdf5741.bindPopup(popup_109fb00d42619f83a6c1771b73f2dede)
+        ;
+
+        
+    
+    
+            var marker_79ff67de3e9c3f57a9aeb288e9a130df = L.marker(
+                [30.23031465, 78.08729064],
+                {}
+            ).addTo(map_af90c2791301d12c20ecc17c0c767df7);
+        
+    
+            var icon_e5ac0c8b4110c32782c7b981b3b70f14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_79ff67de3e9c3f57a9aeb288e9a130df.setIcon(icon_e5ac0c8b4110c32782c7b981b3b70f14);
+        
+    
+        var popup_4e214394381cc0e114b2e7fd5827bda7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ebe4bb036ce093590e5a718109d7281 = $(`<div id="html_0ebe4bb036ce093590e5a718109d7281" style="width: 100.0%; height: 100.0%;">Theft, From Unlocked Vehicle, >$950 378.0</div>`)[0];
+            popup_4e214394381cc0e114b2e7fd5827bda7.setContent(html_0ebe4bb036ce093590e5a718109d7281);
+        
+
+        marker_79ff67de3e9c3f57a9aeb288e9a130df.bindPopup(popup_4e214394381cc0e114b2e7fd5827bda7)
+        ;
+
+        
+    
+    
+            var marker_f8ace3a7496238ca79cced0c077fb424 = L.marker(
+                [30.35938256, 78.0737483],
+                {}
+            ).addTo(map_af90c2791301d12c20ecc17c0c767df7);
+        
+    
+            var icon_ae2307a0a38e2a66f9266e52c7ef6225 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f8ace3a7496238ca79cced0c077fb424.setIcon(icon_ae2307a0a38e2a66f9266e52c7ef6225);
+        
+    
+        var popup_84f3182d44751ec7e938d1d41ecf24a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7559becc93f976997d8bbbaec416832b = $(`<div id="html_7559becc93f976997d8bbbaec416832b" style="width: 100.0%; height: 100.0%;">Theft, From Person, >$950 (other than Pickpocket) 378.0</div>`)[0];
+            popup_84f3182d44751ec7e938d1d41ecf24a5.setContent(html_7559becc93f976997d8bbbaec416832b);
+        
+
+        marker_f8ace3a7496238ca79cced0c077fb424.bindPopup(popup_84f3182d44751ec7e938d1d41ecf24a5)
+        ;
+
+        
+    
+    
+            var marker_2a0cc0ff2ba623dae09245f08d15bd1e = L.marker(
+                [30.37883671, 77.79530353],
+                {}
+            ).addTo(map_af90c2791301d12c20ecc17c0c767df7);
+        
+    
+            var icon_fe47f74261febcba8dda6dd54750d274 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2a0cc0ff2ba623dae09245f08d15bd1e.setIcon(icon_fe47f74261febcba8dda6dd54750d274);
+        
+    
+        var popup_36c5e8ed4b0b15e11a47ae6e00049202 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0932fec6cd291e6a154327337710be9f = $(`<div id="html_0932fec6cd291e6a154327337710be9f" style="width: 100.0%; height: 100.0%;">Theft, Other Property, >$950 378.0</div>`)[0];
+            popup_36c5e8ed4b0b15e11a47ae6e00049202.setContent(html_0932fec6cd291e6a154327337710be9f);
+        
+
+        marker_2a0cc0ff2ba623dae09245f08d15bd1e.bindPopup(popup_36c5e8ed4b0b15e11a47ae6e00049202)
+        ;
+
+        
+    
+    
+            var marker_de0d1442bcf16ccf1f7fd533c173004a = L.marker(
+                [30.19125109, 78.05355562],
+                {}
+            ).addTo(map_af90c2791301d12c20ecc17c0c767df7);
+        
+    
+            var icon_9c3eb18a6f61d97365ab8c117e3c03da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_de0d1442bcf16ccf1f7fd533c173004a.setIcon(icon_9c3eb18a6f61d97365ab8c117e3c03da);
+        
+    
+        var popup_c065103bf83532cdb1ca48a27ec2470a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_597f7620486485a1296fd059498519b5 = $(`<div id="html_597f7620486485a1296fd059498519b5" style="width: 100.0%; height: 100.0%;">Theft, Other Property, >$950 378.0</div>`)[0];
+            popup_c065103bf83532cdb1ca48a27ec2470a.setContent(html_597f7620486485a1296fd059498519b5);
+        
+
+        marker_de0d1442bcf16ccf1f7fd533c173004a.bindPopup(popup_c065103bf83532cdb1ca48a27ec2470a)
+        ;
+
+        
+    
+    
+            var marker_3bb5bfed219af456125b09172ea5add5 = L.marker(
+                [29.82994028, 78.0440456],
+                {}
+            ).addTo(map_af90c2791301d12c20ecc17c0c767df7);
+        
+    
+            var icon_35a798d54935e7b7031f065e38e14cd8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3bb5bfed219af456125b09172ea5add5.setIcon(icon_35a798d54935e7b7031f065e38e14cd8);
+        
+    
+        var popup_13a0ffa55b5896b4bd2e57944deed172 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e0089e726899326b30830183ff15c7a = $(`<div id="html_6e0089e726899326b30830183ff15c7a" style="width: 100.0%; height: 100.0%;">Theft, From Locked Vehicle, >$950 378.0</div>`)[0];
+            popup_13a0ffa55b5896b4bd2e57944deed172.setContent(html_6e0089e726899326b30830183ff15c7a);
+        
+
+        marker_3bb5bfed219af456125b09172ea5add5.bindPopup(popup_13a0ffa55b5896b4bd2e57944deed172)
+        ;
+
+        
+    
+    
+            var marker_e6f4d175670806e4cd902a7aa26fd29b = L.marker(
+                [29.8431589, 77.60494344],
+                {}
+            ).addTo(map_af90c2791301d12c20ecc17c0c767df7);
+        
+    
+            var icon_f5425080f8e501e56250952a43ae4fcf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e6f4d175670806e4cd902a7aa26fd29b.setIcon(icon_f5425080f8e501e56250952a43ae4fcf);
+        
+    
+        var popup_01844c6d27bf76e8986bc1c379f10bd0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_426fd47b8f04115bc4e9ab271230e68e = $(`<div id="html_426fd47b8f04115bc4e9ab271230e68e" style="width: 100.0%; height: 100.0%;">Theft, From Locked Vehicle, >$950 378.0</div>`)[0];
+            popup_01844c6d27bf76e8986bc1c379f10bd0.setContent(html_426fd47b8f04115bc4e9ab271230e68e);
+        
+
+        marker_e6f4d175670806e4cd902a7aa26fd29b.bindPopup(popup_01844c6d27bf76e8986bc1c379f10bd0)
+        ;
+
+        
+    
+    
+            var marker_0685d739451bb9e3ef32b9ba2b3aa03a = L.marker(
+                [29.73526751, 77.57822436],
+                {}
+            ).addTo(map_af90c2791301d12c20ecc17c0c767df7);
+        
+    
+            var icon_72b7df6867c69e057283f2441085ef87 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0685d739451bb9e3ef32b9ba2b3aa03a.setIcon(icon_72b7df6867c69e057283f2441085ef87);
+        
+    
+        var popup_d8219cf1fdc3f5ba4965cc42e06b3223 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b82468827e37f21e8f96c83ddefb4da = $(`<div id="html_7b82468827e37f21e8f96c83ddefb4da" style="width: 100.0%; height: 100.0%;">Theft, Other Property, $50-$200 378.0</div>`)[0];
+            popup_d8219cf1fdc3f5ba4965cc42e06b3223.setContent(html_7b82468827e37f21e8f96c83ddefb4da);
+        
+
+        marker_0685d739451bb9e3ef32b9ba2b3aa03a.bindPopup(popup_d8219cf1fdc3f5ba4965cc42e06b3223)
+        ;
+
+        
+    
+    
+            var marker_b3258c738ec8634901e5f99d5849b13b = L.marker(
+                [29.69763189, 79.57845977],
+                {}
+            ).addTo(map_af90c2791301d12c20ecc17c0c767df7);
+        
+    
+            var icon_2b017607671ba66e94ed3c495c00b392 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b3258c738ec8634901e5f99d5849b13b.setIcon(icon_2b017607671ba66e94ed3c495c00b392);
+        
+    
+        var popup_b8ba6ee8e9dc3b47acf05604f27d39f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd788ab70dcd27534d2d32c639fe2674 = $(`<div id="html_fd788ab70dcd27534d2d32c639fe2674" style="width: 100.0%; height: 100.0%;">Theft, From Locked Vehicle, >$950 378.0</div>`)[0];
+            popup_b8ba6ee8e9dc3b47acf05604f27d39f9.setContent(html_fd788ab70dcd27534d2d32c639fe2674);
+        
+
+        marker_b3258c738ec8634901e5f99d5849b13b.bindPopup(popup_b8ba6ee8e9dc3b47acf05604f27d39f9)
+        ;
+
+        
+    
+    
+            var marker_7603d0f95af100bb4ba4f5444053a49f = L.marker(
+                [29.49902071, 80.00505052],
+                {}
+            ).addTo(map_af90c2791301d12c20ecc17c0c767df7);
+        
+    
+            var icon_1756c169ab6cab006f497ea8d06f6599 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7603d0f95af100bb4ba4f5444053a49f.setIcon(icon_1756c169ab6cab006f497ea8d06f6599);
+        
+    
+        var popup_f968591a82aeb37de9974cfe0d70335b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84255fe90f20d142344ded228acd5da5 = $(`<div id="html_84255fe90f20d142344ded228acd5da5" style="width: 100.0%; height: 100.0%;">Theft, From Locked Vehicle, >$950 378.0</div>`)[0];
+            popup_f968591a82aeb37de9974cfe0d70335b.setContent(html_84255fe90f20d142344ded228acd5da5);
+        
+
+        marker_7603d0f95af100bb4ba4f5444053a49f.bindPopup(popup_f968591a82aeb37de9974cfe0d70335b)
+        ;
+
+        
+    
+    
+            var marker_c50b013ca002bfae14433063dbe8688b = L.marker(
+                [29.73054656, 80.05381952],
+                {}
+            ).addTo(map_af90c2791301d12c20ecc17c0c767df7);
+        
+    
+            var icon_49240fd99eddd8633851e0b1868ea8ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c50b013ca002bfae14433063dbe8688b.setIcon(icon_49240fd99eddd8633851e0b1868ea8ca);
+        
+    
+        var popup_45221e04b0865dbee8d7ebb525976414 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ec76ed3e18c76aa37230e24a5c73970 = $(`<div id="html_3ec76ed3e18c76aa37230e24a5c73970" style="width: 100.0%; height: 100.0%;">Theft, Other Property, >$950 378.0</div>`)[0];
+            popup_45221e04b0865dbee8d7ebb525976414.setContent(html_3ec76ed3e18c76aa37230e24a5c73970);
+        
+
+        marker_c50b013ca002bfae14433063dbe8688b.bindPopup(popup_45221e04b0865dbee8d7ebb525976414)
+        ;
+
+        
+    
+    
+            var marker_e1b23a944caa3a722d0d0a13ac1c06eb = L.marker(
+                [29.48592303, 80.00595547],
+                {}
+            ).addTo(map_af90c2791301d12c20ecc17c0c767df7);
+        
+    
+            var icon_1936e405e0401c1e3ed7667e6a7dccad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e1b23a944caa3a722d0d0a13ac1c06eb.setIcon(icon_1936e405e0401c1e3ed7667e6a7dccad);
+        
+    
+        var popup_a185e1d4eaee13807e6b11a3caf1a126 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c452d70ea369c2896f2e08feae40e92 = $(`<div id="html_5c452d70ea369c2896f2e08feae40e92" style="width: 100.0%; height: 100.0%;">Theft of Computers or Cell Phones 378.0</div>`)[0];
+            popup_a185e1d4eaee13807e6b11a3caf1a126.setContent(html_5c452d70ea369c2896f2e08feae40e92);
+        
+
+        marker_e1b23a944caa3a722d0d0a13ac1c06eb.bindPopup(popup_a185e1d4eaee13807e6b11a3caf1a126)
+        ;
+
+        
+    
+    
+            var marker_cad33fc892c820fef62cc9f86d3761b8 = L.marker(
+                [29.596655, 79.39686025],
+                {}
+            ).addTo(map_af90c2791301d12c20ecc17c0c767df7);
+        
+    
+            var icon_64c740575565c9b9d5772cd7ed73467c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cad33fc892c820fef62cc9f86d3761b8.setIcon(icon_64c740575565c9b9d5772cd7ed73467c);
+        
+    
+        var popup_0f87a9485b96a7050618a5a60562142c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcb449c344cbbe7430db3d1608c968fa = $(`<div id="html_bcb449c344cbbe7430db3d1608c968fa" style="width: 100.0%; height: 100.0%;">Vehicle, Stolen, Motorcycle 378.0</div>`)[0];
+            popup_0f87a9485b96a7050618a5a60562142c.setContent(html_bcb449c344cbbe7430db3d1608c968fa);
+        
+
+        marker_cad33fc892c820fef62cc9f86d3761b8.bindPopup(popup_0f87a9485b96a7050618a5a60562142c)
+        ;
+
+        
+    
+    
+            var marker_6ca68194e30637faf37387398e283281 = L.marker(
+                [29.3061452, 79.56394706],
+                {}
+            ).addTo(map_af90c2791301d12c20ecc17c0c767df7);
+        
+    
+            var icon_11155f352c8f5b63acf72af9aa36cab3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6ca68194e30637faf37387398e283281.setIcon(icon_11155f352c8f5b63acf72af9aa36cab3);
+        
+    
+        var popup_f9e3f60f2c7d4bcf7708d84c25a28f51 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_798e1af948663eec757f5d47486c3b9b = $(`<div id="html_798e1af948663eec757f5d47486c3b9b" style="width: 100.0%; height: 100.0%;">Theft, From Locked Vehicle, >$950 378.0</div>`)[0];
+            popup_f9e3f60f2c7d4bcf7708d84c25a28f51.setContent(html_798e1af948663eec757f5d47486c3b9b);
+        
+
+        marker_6ca68194e30637faf37387398e283281.bindPopup(popup_f9e3f60f2c7d4bcf7708d84c25a28f51)
+        ;
+
+        
+    
+    
+            var marker_45216ac1f5e3a9fb00372e4fb58c01ab = L.marker(
+                [29.68450132, 79.15106248],
+                {}
+            ).addTo(map_af90c2791301d12c20ecc17c0c767df7);
+        
+    
+            var icon_c278d8febf7e211e3fdd77b525b05410 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_45216ac1f5e3a9fb00372e4fb58c01ab.setIcon(icon_c278d8febf7e211e3fdd77b525b05410);
+        
+    
+        var popup_f01938b0b207f41055a0884a4f6a3bb8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21fcc62a2fb1062bf93b5e975acdd5fc = $(`<div id="html_21fcc62a2fb1062bf93b5e975acdd5fc" style="width: 100.0%; height: 100.0%;">Theft, From Locked Vehicle, >$950 378.0</div>`)[0];
+            popup_f01938b0b207f41055a0884a4f6a3bb8.setContent(html_21fcc62a2fb1062bf93b5e975acdd5fc);
+        
+
+        marker_45216ac1f5e3a9fb00372e4fb58c01ab.bindPopup(popup_f01938b0b207f41055a0884a4f6a3bb8)
+        ;
+
+        
+    
+    
+            var marker_7038e61772cf2cd0c70a6973c62d7a06 = L.marker(
+                [29.12923676, 79.35356636],
+                {}
+            ).addTo(map_af90c2791301d12c20ecc17c0c767df7);
+        
+    
+            var icon_53035a423849f975e61022e156fb9366 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7038e61772cf2cd0c70a6973c62d7a06.setIcon(icon_53035a423849f975e61022e156fb9366);
+        
+    
+        var popup_9659d924659a56589c5b37c8929f4e96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64894e5167c935dd6e532804662d0110 = $(`<div id="html_64894e5167c935dd6e532804662d0110" style="width: 100.0%; height: 100.0%;">Theft, Other Property, >$950 378.0</div>`)[0];
+            popup_9659d924659a56589c5b37c8929f4e96.setContent(html_64894e5167c935dd6e532804662d0110);
+        
+
+        marker_7038e61772cf2cd0c70a6973c62d7a06.bindPopup(popup_9659d924659a56589c5b37c8929f4e96)
+        ;
+
+        
+    
+    
+            var marker_a18d349ecccc2164e018fa3f87f2ef6f = L.marker(
+                [29.00333727, 79.55378093],
+                {}
+            ).addTo(map_af90c2791301d12c20ecc17c0c767df7);
+        
+    
+            var icon_6525f11bd07591075f46a62f316756f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a18d349ecccc2164e018fa3f87f2ef6f.setIcon(icon_6525f11bd07591075f46a62f316756f9);
+        
+    
+        var popup_194089447534c136daa59b897bd0bed1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae33fc94be2a3adb6b171d6636081977 = $(`<div id="html_ae33fc94be2a3adb6b171d6636081977" style="width: 100.0%; height: 100.0%;">Theft, From Locked Vehicle, >$950 378.0</div>`)[0];
+            popup_194089447534c136daa59b897bd0bed1.setContent(html_ae33fc94be2a3adb6b171d6636081977);
+        
+
+        marker_a18d349ecccc2164e018fa3f87f2ef6f.bindPopup(popup_194089447534c136daa59b897bd0bed1)
+        ;
+
+        
+    
+</script>

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6bb570e3d3e1f8b58d29c6e98c292c64 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6bb570e3d3e1f8b58d29c6e98c292c64" ></div>
+        
+</body>
+<script>    
+    
+            var map_6bb570e3d3e1f8b58d29c6e98c292c64 = L.map(
+                "map_6bb570e3d3e1f8b58d29c6e98c292c64",
+                {
+                    center: [30.316496, 78.032188],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_6bb570e3d3e1f8b58d29c6e98c292c64);
+
+            
+
+        
+    
+            var tile_layer_2b3d62bb66f66ad49036bdcdb1e52d9b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6bb570e3d3e1f8b58d29c6e98c292c64);
+        
+    
+            var marker_1e321f1a2567cdcddb5e654034b17b44 = L.marker(
+                [30.22557323, 78.03613555],
+                {}
+            ).addTo(map_6bb570e3d3e1f8b58d29c6e98c292c64);
+        
+    
+            var icon_356e03cd58e2ab0c17288552134eb344 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1e321f1a2567cdcddb5e654034b17b44.setIcon(icon_356e03cd58e2ab0c17288552134eb344);
+        
+    
+        var popup_dac9a33b977b28490e027371cec5ec40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16f9861f3608af48413f28fe9a2c1932 = $(`<div id="html_16f9861f3608af48413f28fe9a2c1932" style="width: 100.0%; height: 100.0%;">Theft, Other Property, $50-$200378.0</div>`)[0];
+            popup_dac9a33b977b28490e027371cec5ec40.setContent(html_16f9861f3608af48413f28fe9a2c1932);
+        
+
+        marker_1e321f1a2567cdcddb5e654034b17b44.bindPopup(popup_dac9a33b977b28490e027371cec5ec40)
+        ;
+
+        
+    
+    
+            var marker_1acc20c423a624a4661098c4d2dec7f8 = L.marker(
+                [30.23031465, 78.08729064],
+                {}
+            ).addTo(map_6bb570e3d3e1f8b58d29c6e98c292c64);
+        
+    
+            var icon_cd67809a3c2ced6a1efdc944e6df25ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1acc20c423a624a4661098c4d2dec7f8.setIcon(icon_cd67809a3c2ced6a1efdc944e6df25ed);
+        
+    
+        var popup_d06e4ba96ddb3e3645f0692352f8fe7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2c749a3c0c22ca166f1909938bb2118 = $(`<div id="html_a2c749a3c0c22ca166f1909938bb2118" style="width: 100.0%; height: 100.0%;">Theft, From Unlocked Vehicle, >$950378.0</div>`)[0];
+            popup_d06e4ba96ddb3e3645f0692352f8fe7b.setContent(html_a2c749a3c0c22ca166f1909938bb2118);
+        
+
+        marker_1acc20c423a624a4661098c4d2dec7f8.bindPopup(popup_d06e4ba96ddb3e3645f0692352f8fe7b)
+        ;
+
+        
+    
+    
+            var marker_e3d334cc8350e37607ab0a03c2f4bd01 = L.marker(
+                [30.35938256, 78.0737483],
+                {}
+            ).addTo(map_6bb570e3d3e1f8b58d29c6e98c292c64);
+        
+    
+            var icon_32f3e54c0577a2f0e7475ad1ad35d867 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e3d334cc8350e37607ab0a03c2f4bd01.setIcon(icon_32f3e54c0577a2f0e7475ad1ad35d867);
+        
+    
+        var popup_8489112a6b38392b928d3a6e6fa9abc6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4810df8d5146aa7b1f56768ddb03750a = $(`<div id="html_4810df8d5146aa7b1f56768ddb03750a" style="width: 100.0%; height: 100.0%;">Theft, From Person, >$950 (other than Pickpocket)378.0</div>`)[0];
+            popup_8489112a6b38392b928d3a6e6fa9abc6.setContent(html_4810df8d5146aa7b1f56768ddb03750a);
+        
+
+        marker_e3d334cc8350e37607ab0a03c2f4bd01.bindPopup(popup_8489112a6b38392b928d3a6e6fa9abc6)
+        ;
+
+        
+    
+    
+            var marker_324176783b6f22f8d75c4e75d1289757 = L.marker(
+                [30.37883671, 77.79530353],
+                {}
+            ).addTo(map_6bb570e3d3e1f8b58d29c6e98c292c64);
+        
+    
+            var icon_167d1d33361a7a263183175e58737619 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_324176783b6f22f8d75c4e75d1289757.setIcon(icon_167d1d33361a7a263183175e58737619);
+        
+    
+        var popup_663c612ce291d44fa8ac16a01ee49b8d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_430339e4aaed0a8c12015a93053d5b02 = $(`<div id="html_430339e4aaed0a8c12015a93053d5b02" style="width: 100.0%; height: 100.0%;">Theft, Other Property, >$950378.0</div>`)[0];
+            popup_663c612ce291d44fa8ac16a01ee49b8d.setContent(html_430339e4aaed0a8c12015a93053d5b02);
+        
+
+        marker_324176783b6f22f8d75c4e75d1289757.bindPopup(popup_663c612ce291d44fa8ac16a01ee49b8d)
+        ;
+
+        
+    
+    
+            var marker_f8dad330bff3d10a2d124f5d949d4124 = L.marker(
+                [30.08001883, 78.12479473],
+                {}
+            ).addTo(map_6bb570e3d3e1f8b58d29c6e98c292c64);
+        
+    
+            var icon_816ed2259495f8eced7b2fd7857ed40e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f8dad330bff3d10a2d124f5d949d4124.setIcon(icon_816ed2259495f8eced7b2fd7857ed40e);
+        
+    
+        var popup_465a99fdf841c85057acd7f5a40c2d6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fbc85f0f7731779bfb790243e5352fc9 = $(`<div id="html_fbc85f0f7731779bfb790243e5352fc9" style="width: 100.0%; height: 100.0%;">Battery assault resulted in murder300.0</div>`)[0];
+            popup_465a99fdf841c85057acd7f5a40c2d6f.setContent(html_fbc85f0f7731779bfb790243e5352fc9);
+        
+
+        marker_f8dad330bff3d10a2d124f5d949d4124.bindPopup(popup_465a99fdf841c85057acd7f5a40c2d6f)
+        ;
+
+        
+    
+    
+            var marker_afe91339061b4dda88d3aa65e726260a = L.marker(
+                [30.1930492, 78.01786337],
+                {}
+            ).addTo(map_6bb570e3d3e1f8b58d29c6e98c292c64);
+        
+    
+            var icon_610be18c9a5b36e94813120349d7b962 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_afe91339061b4dda88d3aa65e726260a.setIcon(icon_610be18c9a5b36e94813120349d7b962);
+        
+    
+        var popup_b3ee79f40c8e07b9de82117482796842 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4a5233b80cd08efca64cadc5d0db61e = $(`<div id="html_c4a5233b80cd08efca64cadc5d0db61e" style="width: 100.0%; height: 100.0%;">Money Randomely Transfered From Account300.0</div>`)[0];
+            popup_b3ee79f40c8e07b9de82117482796842.setContent(html_c4a5233b80cd08efca64cadc5d0db61e);
+        
+
+        marker_afe91339061b4dda88d3aa65e726260a.bindPopup(popup_b3ee79f40c8e07b9de82117482796842)
+        ;
+
+        
+    
+    
+            var marker_d89b254b54e7c8f1ce10f625843af482 = L.marker(
+                [30.21937279, 77.99168358],
+                {}
+            ).addTo(map_6bb570e3d3e1f8b58d29c6e98c292c64);
+        
+    
+            var icon_daf50eb91e5d00f019c72dcdfec0a268 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d89b254b54e7c8f1ce10f625843af482.setIcon(icon_daf50eb91e5d00f019c72dcdfec0a268);
+        
+    
+        var popup_198e89327343ee77711461abbd755a80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8ca5d219eee30892dc797b4c7574ed6 = $(`<div id="html_c8ca5d219eee30892dc797b4c7574ed6" style="width: 100.0%; height: 100.0%;">Narcotics Paraphernalia, Possession of274.0</div>`)[0];
+            popup_198e89327343ee77711461abbd755a80.setContent(html_c8ca5d219eee30892dc797b4c7574ed6);
+        
+
+        marker_d89b254b54e7c8f1ce10f625843af482.bindPopup(popup_198e89327343ee77711461abbd755a80)
+        ;
+
+        
+    
+    
+            var marker_af950a6d8a2c60d8065c2ff2fa94bbff = L.marker(
+                [30.19125109, 78.05355562],
+                {}
+            ).addTo(map_6bb570e3d3e1f8b58d29c6e98c292c64);
+        
+    
+            var icon_2b21c8b5f3356587ac2044d09e1dd6e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_af950a6d8a2c60d8065c2ff2fa94bbff.setIcon(icon_2b21c8b5f3356587ac2044d09e1dd6e2);
+        
+    
+        var popup_5becf0282f1f1a33a053797148e29f7c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2be595a86fed43cb07168f81f3e4ce39 = $(`<div id="html_2be595a86fed43cb07168f81f3e4ce39" style="width: 100.0%; height: 100.0%;">Theft, Other Property, >$950378.0</div>`)[0];
+            popup_5becf0282f1f1a33a053797148e29f7c.setContent(html_2be595a86fed43cb07168f81f3e4ce39);
+        
+
+        marker_af950a6d8a2c60d8065c2ff2fa94bbff.bindPopup(popup_5becf0282f1f1a33a053797148e29f7c)
+        ;
+
+        
+    
+</script>
