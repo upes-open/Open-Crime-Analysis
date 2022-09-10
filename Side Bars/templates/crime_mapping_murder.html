@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e3cd32e9f3d9b3cc0ba300e9a72e981f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e3cd32e9f3d9b3cc0ba300e9a72e981f" ></div>
+        
+</body>
+<script>    
+    
+            var map_e3cd32e9f3d9b3cc0ba300e9a72e981f = L.map(
+                "map_e3cd32e9f3d9b3cc0ba300e9a72e981f",
+                {
+                    center: [30.316496, 78.032188],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_e3cd32e9f3d9b3cc0ba300e9a72e981f);
+
+            
+
+        
+    
+            var tile_layer_2b87af90a1c033c5af584f935b46db11 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e3cd32e9f3d9b3cc0ba300e9a72e981f);
+        
+    
+            var marker_40c25976811352c615c0908f01c9b34c = L.marker(
+                [29.18039531, 79.2492847],
+                {}
+            ).addTo(map_e3cd32e9f3d9b3cc0ba300e9a72e981f);
+        
+    
+            var icon_3ef0db5db285d5d52b511d2457d22805 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_40c25976811352c615c0908f01c9b34c.setIcon(icon_3ef0db5db285d5d52b511d2457d22805);
+        
+    
+        var popup_6689632c6247abdcd30b309016c77f24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6fc0d2b6426c015d49452424885caf24 = $(`<div id="html_6fc0d2b6426c015d49452424885caf24" style="width: 100.0%; height: 100.0%;">Dead Body Found in the apartment 300.0</div>`)[0];
+            popup_6689632c6247abdcd30b309016c77f24.setContent(html_6fc0d2b6426c015d49452424885caf24);
+        
+
+        marker_40c25976811352c615c0908f01c9b34c.bindPopup(popup_6689632c6247abdcd30b309016c77f24)
+        ;
+
+        
+    
+    
+            var marker_07491d28ae524657b7053bf333c3e4be = L.marker(
+                [30.08001883, 78.12479473],
+                {}
+            ).addTo(map_e3cd32e9f3d9b3cc0ba300e9a72e981f);
+        
+    
+            var icon_0d528b6dcf5e9667a94af8a7df77c26e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_07491d28ae524657b7053bf333c3e4be.setIcon(icon_0d528b6dcf5e9667a94af8a7df77c26e);
+        
+    
+        var popup_b6b154c15e124f1bb87396ab6bb3a4ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ccea148d9790c6ab058ccb5d19de98c1 = $(`<div id="html_ccea148d9790c6ab058ccb5d19de98c1" style="width: 100.0%; height: 100.0%;">Battery assault resulted in murder 300.0</div>`)[0];
+            popup_b6b154c15e124f1bb87396ab6bb3a4ae.setContent(html_ccea148d9790c6ab058ccb5d19de98c1);
+        
+
+        marker_07491d28ae524657b7053bf333c3e4be.bindPopup(popup_b6b154c15e124f1bb87396ab6bb3a4ae)
+        ;
+
+        
+    
+    
+            var marker_4c217a5231ed8b0641b70a973dacdd5b = L.marker(
+                [29.82711365, 78.01554982],
+                {}
+            ).addTo(map_e3cd32e9f3d9b3cc0ba300e9a72e981f);
+        
+    
+            var icon_9aabf52c0a34395742972888b737de82 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4c217a5231ed8b0641b70a973dacdd5b.setIcon(icon_9aabf52c0a34395742972888b737de82);
+        
+    
+        var popup_c96b46daa009d41c33fef221114063ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98970d98859d41853eb07c3ca3ca763b = $(`<div id="html_98970d98859d41853eb07c3ca3ca763b" style="width: 100.0%; height: 100.0%;">Assault, Aggravated, W/ Gun 300.0</div>`)[0];
+            popup_c96b46daa009d41c33fef221114063ce.setContent(html_98970d98859d41853eb07c3ca3ca763b);
+        
+
+        marker_4c217a5231ed8b0641b70a973dacdd5b.bindPopup(popup_c96b46daa009d41c33fef221114063ce)
+        ;
+
+        
+    
+    
+            var marker_a376f15ae5419451709f966381ea924e = L.marker(
+                [29.75747462, 77.78118145],
+                {}
+            ).addTo(map_e3cd32e9f3d9b3cc0ba300e9a72e981f);
+        
+    
+            var icon_a825096b3d20934e597f30483c797039 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a376f15ae5419451709f966381ea924e.setIcon(icon_a825096b3d20934e597f30483c797039);
+        
+    
+        var popup_bd420b512ea219445e3fceed8b5db7eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc78eac5cc7f618520a1f6a1e4294d40 = $(`<div id="html_bc78eac5cc7f618520a1f6a1e4294d40" style="width: 100.0%; height: 100.0%;">Terrorist Threats 300.0</div>`)[0];
+            popup_bd420b512ea219445e3fceed8b5db7eb.setContent(html_bc78eac5cc7f618520a1f6a1e4294d40);
+        
+
+        marker_a376f15ae5419451709f966381ea924e.bindPopup(popup_bd420b512ea219445e3fceed8b5db7eb)
+        ;
+
+        
+    
+    
+            var marker_e859bc393afd2dc6fbff99f242376b2b = L.marker(
+                [29.52766035, 80.32378064],
+                {}
+            ).addTo(map_e3cd32e9f3d9b3cc0ba300e9a72e981f);
+        
+    
+            var icon_167927aceb9f8ede373e609d49b87c98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star empty", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e859bc393afd2dc6fbff99f242376b2b.setIcon(icon_167927aceb9f8ede373e609d49b87c98);
+        
+    
+        var popup_2036994cf7b658d7224921bbc3b38eec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b27d196f34a2133b2186e7978074be10 = $(`<div id="html_b27d196f34a2133b2186e7978074be10" style="width: 100.0%; height: 100.0%;">Battery 300.0</div>`)[0];
+            popup_2036994cf7b658d7224921bbc3b38eec.setContent(html_b27d196f34a2133b2186e7978074be10);
+        
+
+        marker_e859bc393afd2dc6fbff99f242376b2b.bindPopup(popup_2036994cf7b658d7224921bbc3b38eec)
+        ;
+
+        
+    
+</script>
