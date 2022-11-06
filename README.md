@@ -108,9 +108,7 @@ flask command or python -m flask
 
 Today the crime rate is rising day by day. The government's efforts are directed at raising the crime rate using data mining, which would be a grade field of application with high data set volume. It has provinces that its technique to take advantage of historical data would have the police department analyzing the data and extracting information from it. This information can be further used for visualization, helping us in solving the problem further. 
 
-
-https://user-images.githubusercontent.com/78318301/200167128-af0a91a4-d100-4dc5-9834-08dd8f04507c.mp4
-
+https://user-images.githubusercontent.com/78318301/200168035-4c02f9b6-33ae-4118-b08c-455f75469e20.mp4
 
 
 <!-- Contributing -->
