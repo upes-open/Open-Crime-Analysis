@@ -53,7 +53,7 @@
 - [Contributing](#wave-contributing)
   * [Code of Conduct](#scroll-code-of-conduct)
 - [Contact](#handshake-contact)
-- [Acknowledgements](#gem-acknowledgements)
+
 
   
 
